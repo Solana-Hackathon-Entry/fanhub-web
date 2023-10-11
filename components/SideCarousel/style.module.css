@@ -1,0 +1,18 @@
+.container {
+  padding: 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.items_container {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  overflow: auto;
+}

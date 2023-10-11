@@ -1,0 +1,18 @@
+.container {
+  padding: 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.collections_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  overflow: auto;
+}
