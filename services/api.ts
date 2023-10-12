@@ -10,3 +10,7 @@ const AXIOS_INSTANCE: AxiosInstance = axios.create({
 export async function get(uri: string) {
   return await AXIOS_INSTANCE.get(uri);
 }
+
+export async function post(uri: string, body: any) {
+  return await AXIOS_INSTANCE.post(uri, body);
+}
