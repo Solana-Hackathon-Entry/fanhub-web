@@ -14,8 +14,9 @@ import EngagementCard from "./EngagementCard";
 import Seize from "./Seize";
 import NftCard from "./NftCard";
 import DetailsSegment from "./DetailsSegment";
-
+import Footer from "./Footer";
 export {
+  Footer,
   DetailsSegment,
   NftCard,
   Seize,

@@ -1,0 +1,3 @@
+.container {
+  @apply bg-dark-500 flex flex-col gap-6 items-center p-7;
+}
