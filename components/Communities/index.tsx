@@ -13,7 +13,7 @@ function Communities() {
       </div>
       <div className={style.hubs_container}>
         {mock.map((e: string) => (
-          <CommunityCard title={e} />
+          <CommunityCard key={e} title={e} />
         ))}
       </div>
     </div>

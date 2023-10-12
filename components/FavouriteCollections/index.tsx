@@ -13,7 +13,7 @@ function FavouriteCollections() {
       </div>
       <div className={style.collections_container}>
         {mock.map((e: string) => (
-          <CollectionCard />
+          <CollectionCard key={e} />
         ))}
       </div>
     </div>

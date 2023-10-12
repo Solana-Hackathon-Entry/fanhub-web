@@ -2,7 +2,7 @@ import React from "react";
 import style from "./style.module.css";
 import logo from "@/public/placeholder.svg";
 import NftCard from "@/components/NftCard";
-export default function ({}: any) {
+function DetailsSegment({}: any) {
   return (
     <>
       <div className={style.container}>
@@ -39,3 +39,5 @@ export default function ({}: any) {
     </>
   );
 }
+
+export default DetailsSegment;

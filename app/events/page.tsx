@@ -1,4 +1,4 @@
-import { Navbar, EventsCard } from "@/app/components";
+import { Navbar, EventsCard } from "@/components";
 import style from "./style.module.css";
 
 export default function Home() {

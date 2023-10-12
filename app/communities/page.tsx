@@ -21,7 +21,7 @@ export default function Home() {
       <div className={style.container}>
         <div className={style.community_contanier}>
           {communities.map((e: any) => (
-            <CommunityCard title={e.name} image={e.image} />
+            <CommunityCard key={e.name} title={e.name} image={e.image} />
           ))}
         </div>
       </div>
