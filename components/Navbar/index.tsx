@@ -2,39 +2,24 @@
 import React from "react";
 import style from "./style.module.css";
 import Image from "next/image";
-import logo from "@/public/logo.png";
-import home from "@/public/home.png";
-import store from "@/public/store.png";
-import user from "@/public/user.png";
-import users from "@/public/users.png";
-import { useRouter } from "next/navigation";
-import { Button } from "..";
+import logo from "@/public/logo-1.png";
+import { Button } from "@/components";
 
 function Navbar() {
-  const router = useRouter();
   return (
     <>
       <div className={style.toolbar}>
-        <Image
-          src={logo}
-          alt="Picture of the author"
-          onClick={() => router.push("/")}
-        />
+        <Image src={logo} alt="Picture of the author" />
 
         <div className={style.links_container}>
-          <Image
-            src={home}
-            alt="Picture of the author"
-            onClick={() => router.push("/")}
-          />
-          <Image
-            src={store}
-            alt="Picture of the author"
-            onClick={() => router.push("/communities")}
-          />
-          <Image src={user} alt="Picture of the author" />
-          <Image src={users} alt="Picture of the author" />
-          <Button title="Login" onClick={() => router.push("/login")} />
+          <p>Marketplace</p>
+          <p>Community</p>
+          <p>Events</p>
+        </div>
+
+        <div className={style.links_container}>
+          <Button outlined>Sign In</Button>
+          <Button>Get Started</Button>
         </div>
       </div>
       <div className={style.divider}></div>

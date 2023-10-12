@@ -3,17 +3,8 @@
 }
 
 .toolbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 10vh;
-  background-color: #110b17;
-  padding: 1rem 2rem;
-  color: #fff;
-  z-index: 999;
+  @apply bg-black-500 z-40 py-4 px-32 fixed top-0 w-full flex justify-between items-center;
 }
 
 .logo {
@@ -22,68 +13,5 @@
 }
 
 .links_container {
-  display: none;
-}
-
-/* button {
-  display: none;
-} */
-
-.hamburger {
-}
-.hamburger_lines {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-/* p {
-  color: var(--primary);
-  font-size: 1.5rem;
-} */
-
-@media (min-width: 1024px) {
-  .toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 4rem;
-  }
-  .sidenav {
-    display: none;
-  }
-  .logo {
-    height: 75px;
-    width: 201.44px;
-  }
-
-  .links_container {
-    display: flex;
-    gap: 5rem;
-  }
-
-  /* button {
-    display: block;
-    padding: 1rem 1rem;
-    border-radius: 8px;
-    outline: none;
-    border: 3px solid var(--primary);
-    font-weight: 600;
-    color: var(--primary);
-    background-color: transparent;
-    font-size: 1.5rem;
-  } */
-
-  .hamburger {
-    display: none;
-  }
+  @apply text-white-500 flex items-center gap-9;
 }
