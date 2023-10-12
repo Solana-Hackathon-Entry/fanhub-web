@@ -1,0 +1,8 @@
+.container {
+  height: 80vh;
+  @apply bg-black-500 p-20 text-center flex flex-col gap-20;
+}
+
+.cards_container {
+  @apply grid grid-cols-3 gap-16;
+}
