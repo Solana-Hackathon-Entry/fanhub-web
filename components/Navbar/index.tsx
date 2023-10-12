@@ -2,7 +2,7 @@
 import React from "react";
 import style from "./style.module.css";
 import Image from "next/image";
-import logo from "@/public/logo-1.png";
+import logo from "@/public/logo.png";
 import { Button } from "@/components";
 
 function Navbar() {
