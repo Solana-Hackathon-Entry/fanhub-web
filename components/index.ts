@@ -8,7 +8,10 @@ import SideCarousel from "./SideCarousel";
 import FavouriteCollections from "./FavouriteCollections";
 import EventsCard from "./EventsCard";
 import CollectionCard from "./CollectionCard";
+import Hero from "./Hero";
+
 export {
+  Hero,
   CollectionCard,
   EventsCard,
   SideCarousel,
