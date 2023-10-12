@@ -11,8 +11,11 @@ import CollectionCard from "./CollectionCard";
 import Hero from "./Hero";
 import Engagement from "./Engagement";
 import EngagementCard from "./EngagementCard";
-
+import Seize from "./Seize";
+import NftCard from "./NftCard";
 export {
+  NftCard,
+  Seize,
   EngagementCard,
   Engagement,
   Hero,
