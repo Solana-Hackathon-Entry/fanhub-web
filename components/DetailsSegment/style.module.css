@@ -1,5 +1,5 @@
 .container {
-  @apply bg-black-500 w-full flex flex-col py-10 px-48 items-center gap-10;
+  @apply bg-black-500 w-full flex flex-col py-32 px-48 items-center gap-10;
 }
 
 .header_container {
