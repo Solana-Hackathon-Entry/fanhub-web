@@ -1,5 +1,5 @@
 "use client";
-import { Navbar } from "@/components";
+import { Navbar, Hero } from "@/components";
 import { get } from "@/services/api";
 import { useEffect, useState } from "react";
 
@@ -19,6 +19,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
+      <Hero />
       {/* <Navbar />
       <Carousel />
       <MyHub />
