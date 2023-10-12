@@ -1,0 +1,8 @@
+.card {
+  @apply bg-transparent  border-secondary-500 border rounded-md flex flex-col items-center gap-7 p-20;
+}
+
+.icon {
+  border-width: 25px;
+  @apply relative w-24 h-24 border-secondary-500 bg-secondary-500 rounded-full overflow-hidden;
+}
