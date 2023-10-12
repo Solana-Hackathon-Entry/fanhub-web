@@ -1,0 +1,11 @@
+.container {
+  @apply bg-black-500 flex flex-col items-center gap-5 p-6 rounded-2xl;
+}
+
+.card_image {
+  @apply relative bg-black-500 overflow-hidden rounded-3xl max-h-80;
+}
+
+.row_container {
+  @apply flex flex-row items-center gap-1;
+}
