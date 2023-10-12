@@ -1,10 +1,15 @@
 import React from "react";
 import style from "./style.module.css";
-function Button({ title, onClick }: any) {
+
+function Button({ onClick, type, children, outlined }: any) {
   return (
     <>
-      <button className={style.button} onClick={onClick}>
-        {title ?? "Untitled"}
+      <button
+        className={outlined ? style.outlined : style.button}
+        onClick={onClick}
+        type={type ?? "button"}
+      >
+        {children}
       </button>
     </>
   );
