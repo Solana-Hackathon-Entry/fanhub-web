@@ -17,7 +17,10 @@ import DetailsSegment from "./DetailsSegment";
 import Footer from "./Footer";
 import FeaturedCommunities from "./FeaturedCommunities";
 import HottestNfts from "./HottestNfts";
+import OdysseySegment from "./OdysseySegment";
+
 export {
+  OdysseySegment,
   HottestNfts,
   FeaturedCommunities,
   Footer,

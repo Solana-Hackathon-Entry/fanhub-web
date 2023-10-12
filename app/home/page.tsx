@@ -1,5 +1,11 @@
 "use client";
-import { Navbar, HottestNfts, Footer, FeaturedCommunities } from "@/components";
+import {
+  Navbar,
+  HottestNfts,
+  Footer,
+  OdysseySegment,
+  FeaturedCommunities,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -7,7 +13,7 @@ export default function Home() {
       <Navbar />
       <FeaturedCommunities />
       <HottestNfts />
-
+      <OdysseySegment />
       <Footer />
     </main>
   );
