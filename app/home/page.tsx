@@ -1,19 +1,12 @@
 "use client";
-import {
-  Navbar,
-  Hero,
-  Engagement,
-  Seize,
-  DetailsSegment,
-  Footer,
-  FeaturedCommunities,
-} from "@/components";
+import { Navbar, HottestNfts, Footer, FeaturedCommunities } from "@/components";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
       <FeaturedCommunities />
+      <HottestNfts />
 
       <Footer />
     </main>

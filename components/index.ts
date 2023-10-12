@@ -16,8 +16,9 @@ import NftCard from "./NftCard";
 import DetailsSegment from "./DetailsSegment";
 import Footer from "./Footer";
 import FeaturedCommunities from "./FeaturedCommunities";
-
+import HottestNfts from "./HottestNfts";
 export {
+  HottestNfts,
   FeaturedCommunities,
   Footer,
   DetailsSegment,
