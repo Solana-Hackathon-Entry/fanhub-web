@@ -15,7 +15,10 @@ import Seize from "./Seize";
 import NftCard from "./NftCard";
 import DetailsSegment from "./DetailsSegment";
 import Footer from "./Footer";
+import FeaturedCommunities from "./FeaturedCommunities";
+
 export {
+  FeaturedCommunities,
   Footer,
   DetailsSegment,
   NftCard,
