@@ -1,0 +1,15 @@
+.container {
+  @apply bg-black-500 w-full flex flex-col py-10 px-48 items-center gap-10;
+}
+
+.header_container {
+  @apply col-span-2 text-center flex flex-col gap-5;
+}
+
+.cards_container {
+  @apply flex  gap-3 items-center;
+}
+
+.card_container {
+  @apply bg-secondary-900 h-full flex flex-col gap-3 p-10 rounded-3xl w-fit;
+}

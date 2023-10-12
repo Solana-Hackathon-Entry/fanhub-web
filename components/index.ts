@@ -13,7 +13,10 @@ import Engagement from "./Engagement";
 import EngagementCard from "./EngagementCard";
 import Seize from "./Seize";
 import NftCard from "./NftCard";
+import DetailsSegment from "./DetailsSegment";
+
 export {
+  DetailsSegment,
   NftCard,
   Seize,
   EngagementCard,

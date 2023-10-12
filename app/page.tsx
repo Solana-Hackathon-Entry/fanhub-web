@@ -1,5 +1,5 @@
 "use client";
-import { Navbar, Hero, Engagement, Seize } from "@/components";
+import { Navbar, Hero, Engagement, Seize, DetailsSegment } from "@/components";
 import { get } from "@/services/api";
 import { useEffect, useState } from "react";
 
@@ -22,6 +22,8 @@ export default function Home() {
       <Hero />
       <Engagement />
       <Seize />
+      <DetailsSegment />
+
       {/* <Navbar />
       <Carousel />
       <MyHub />
