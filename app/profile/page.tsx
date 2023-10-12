@@ -2,7 +2,7 @@
 import { Navbar, CommunityCard } from "@/components";
 import style from "./style.module.css";
 import { useState, useEffect } from "react";
-import { get } from "../services/api";
+import { get } from "../../services/api";
 import Image from "next/image";
 import logo from "@/public/placeholder.svg";
 
