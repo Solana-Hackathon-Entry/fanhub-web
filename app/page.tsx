@@ -1,14 +1,8 @@
 "use client";
-import {
-  CommunityCard,
-  CollectionCard,
-  MyHub,
-  Navbar,
-  Carousel,
-  SideCarousel,
-} from "@/components";
-import { get } from "@/app/services/api";
+import { Navbar } from "@/components";
+import { get } from "@/services/api";
 import { useEffect, useState } from "react";
+
 export default function Home() {
   const mock = new Array(10).fill("Black Purple");
   const [communities, setcommunities] = useState([]);
@@ -25,6 +19,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
+      {/* <Navbar />
       <Carousel />
       <MyHub />
       <SideCarousel title="Meet your community!">
@@ -46,7 +41,7 @@ export default function Home() {
         {mock.map((e: string) => (
           <CollectionCard />
         ))}
-      </SideCarousel>
+      </SideCarousel> */}
     </main>
   );
 }
