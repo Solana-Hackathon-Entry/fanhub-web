@@ -1,8 +1,8 @@
 "use client";
-import { Navbar, CommunityCard } from "@/app/components";
+import { Navbar, CommunityCard } from "@/components";
 import style from "./style.module.css";
 import { useState, useEffect } from "react";
-import { get } from "../services/api";
+import { get } from "@/services/api";
 
 export default function Home() {
   const [communities, setcommunities] = useState([]);
