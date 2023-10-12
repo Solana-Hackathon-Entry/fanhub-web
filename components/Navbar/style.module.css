@@ -7,11 +7,6 @@
   @apply bg-black-500 z-40 py-4 px-32 fixed top-0 w-full flex justify-between items-center;
 }
 
-.logo {
-  height: 2.375rem;
-  width: 6.37875rem;
-}
-
 .links_container {
-  @apply text-white-500 flex items-center gap-9;
+  @apply text-white-500 flex items-center gap-9 font-bold;
 }
