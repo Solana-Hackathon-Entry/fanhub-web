@@ -1,25 +1,58 @@
 "use client";
-import { Navbar, Button } from "@/app/components";
+import { Navbar, Button } from "@/components";
 import style from "./style.module.css";
 import Image from "next/image";
 import logo from "@/public/logo.png";
+import { useAuthStore } from "@/states";
+import { useState } from "react";
+
 export default function Login() {
+  const { authenticate } = useAuthStore() as any;
+
+  const [state, setState] = useState({
+    email: "",
+    password: "",
+  });
+
+  function handleChange(e: any) {
+    setState({ ...state, [e.target.name]: e.target.value });
+  }
+
+  async function handleSubmit(e: any) {
+    e.preventDefault();
+    authenticate(state);
+  }
+
   return (
     <>
       <Navbar />
       <div className={style.container}>
-        <div className={style.login_container}>
+        <form className={style.login_container} onSubmit={handleSubmit}>
           <Image alt="logo" src={logo} />
           <div className={style.form_input}>
             <p>Username</p>
-            <input type="text" />
+            <input
+              name="email"
+              type="email"
+              placeholder="Enter email"
+              onChange={handleChange}
+              value={state.email}
+              required
+            />
           </div>
           <div className={style.form_input}>
             <p>Password</p>
-            <input type="password" />
+            <input
+              name="password"
+              type="password"
+              placeholder="Enter password"
+              onChange={handleChange}
+              value={state.password}
+              required
+            />
           </div>
-          <Button title="Login" />
-        </div>
+          <Button title="Login" type="submit" />
+        </form>
       </div>
     </>
   );
