@@ -1,5 +1,5 @@
 .container {
   height: 80vh;
   @apply w-full grid grid-cols-2  place-items-center p-56;
-  /* background-image: url("../../public/hero-bg.svg"); */
+  background-image: linear-gradient(to bottom right, #0d25b9, #77182c);
 }
