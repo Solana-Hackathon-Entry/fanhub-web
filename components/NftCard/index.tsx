@@ -10,15 +10,11 @@ export default function ({ metadata }: any) {
   const [title, settitle] = useState("UNTITLED");
 
   useEffect(() => {
-    const start = async () => {
-      const response = await axios.get(metadata.uri);
-      console.log(response.data.image);
-
+    axios.get(metadata.uri).then((response: any) => {
       setimage(response.data.image);
       settitle(response.data.name);
-    };
-    start();
-  }, []);
+    });
+  });
 
   return (
     <>
