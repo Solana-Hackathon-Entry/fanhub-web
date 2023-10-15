@@ -3,7 +3,7 @@
 }
 
 .card_image {
-  @apply relative bg-black-500 overflow-hidden rounded-3xl max-h-80;
+  @apply relative bg-black-500 overflow-hidden rounded-3xl max-h-80 w-72;
 }
 
 .row_container {
