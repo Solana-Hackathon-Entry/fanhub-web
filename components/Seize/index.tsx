@@ -7,8 +7,8 @@ export default function ({}: any) {
     <>
       <div className={style.container}>
         <div>
-          <p>Seize the Moment, </p>
-          <p>Own the Masterpiece!</p>
+          <h3 className="font-bold">Seize the Moment, </h3>
+          <h3 className="font-bold">Own the Masterpiece!</h3>
         </div>
         <div className={style.cards_container}>
           <NftCard image={logo} price={100} />

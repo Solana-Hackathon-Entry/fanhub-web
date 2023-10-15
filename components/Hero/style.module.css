@@ -1,5 +1,5 @@
 .container {
-  height: 70vh;
+  height: 80vh;
   @apply w-full grid grid-cols-2  place-items-center px-56 py-20;
   background-image: linear-gradient(to bottom right, #0d25b9, #77182c);
 }
