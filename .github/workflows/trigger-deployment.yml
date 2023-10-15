@@ -1,0 +1,11 @@
+name: Deployment
+on: [push]
+jobs:
+  trigger-vercel-deployment-hook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "trigger vercel deployment hook"
+        uses: indiesdev/curl@v1.1
+        with:
+          uses: https://api.vercel.com/v1/integrations/deploy/prj_zsQ5Hg0TnpeJCkUBcksm4ISPb3RG/NfgaVpSBiT
+          method: "POST"
