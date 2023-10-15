@@ -9,7 +9,7 @@ export default function ({}: any) {
     <>
       <div className={style.container}>
         <Image src={logo} alt="Picture of the author" />
-        <p>2023 Fanhub. All Rights Reserved.</p>
+        <p className="font-medium">2023 Fanhub. All Rights Reserved.</p>
         <p>FB IG LinkedIn X/Twitter</p>
       </div>
     </>

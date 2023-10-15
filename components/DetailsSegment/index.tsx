@@ -1,39 +1,47 @@
 import React from "react";
 import style from "./style.module.css";
-import logo from "@/public/placeholder.svg";
-import NftCard from "@/components/NftCard";
+
 function DetailsSegment({}: any) {
+  const cards: any = [
+    {
+      title: "Join our community",
+      description:
+        "We are a huge marketplace dedicated to connecting great artists ofall.",
+    },
+    {
+      title: "Learn more",
+      description:
+        "We are a huge marketplace dedicated to connecting great artists of all.",
+    },
+  ];
   return (
     <>
       <div className={style.container}>
         <div className={style.header_container}>
-          <p>
-            Embark on a Journey with the Swiftest Growing Collection of 2000+
-            NFTs
-          </p>
-          <p>
-            We're a bustling marketplace committed to linking extraordinary
-            artists with their dedicated fanbase and discerning token
-            enthusiasts!
-          </p>
+          <div>
+            <h6 className="font-bold">
+              Embark on a Journey with the Swiftest Growing Collection
+            </h6>
+            <h6 className="font-bold">of 2000+ NFTs</h6>
+          </div>
+          <div>
+            <h6 className="font-normal">
+              We're a bustling marketplace committed to linking
+            </h6>
+            <h6 className="font-normal">
+              extraordinary artists with their dedicated fanbase and
+            </h6>
+            <h6 className="font-normal">discerning token enthusiasts!</h6>
+          </div>
         </div>
         <div className={style.cards_container}>
-          <div className={style.card_container}>
-            <p>Join our community</p>
-            <p>
-              We are a huge marketplace dedicated to connecting great artists of
-              all.
-            </p>
-            <p>Read More</p>
-          </div>
-          <div className={style.card_container}>
-            <p>Learn more</p>
-            <p>
-              We are a huge marketplace dedicated to connecting great artists of
-              all.
-            </p>
-            <p>Read More</p>
-          </div>
+          {cards.map((e: any) => (
+            <div className={style.card_container}>
+              <h6 className="font-bold">{e.title}</h6>
+              <p>{e.description}</p>
+              <p className="font-bold">Read More</p>
+            </div>
+          ))}
         </div>
       </div>
     </>
