@@ -5,7 +5,7 @@ import Image from "next/image";
 import axios from "axios";
 import logo from "@/public/placeholder.svg";
 
-export default function ({ metadata }: any) {
+export default function Component({ metadata }: any) {
   const [image, setimage] = useState(logo);
   const [title, settitle] = useState("UNTITLED");
 

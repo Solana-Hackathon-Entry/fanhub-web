@@ -3,7 +3,8 @@ import style from "./style.module.css";
 import Image from "next/image";
 import logo from "@/public/placeholder.svg";
 import Button from "../Button";
-export default function ({}: any) {
+
+export default function Component({}: any) {
   return (
     <>
       <div className={style.container}>

@@ -2,7 +2,7 @@ import React from "react";
 import style from "./style.module.css";
 import Image from "next/image";
 
-export default function ({ icon, title, description }: any) {
+export default function Component({ icon, title, description }: any) {
   return (
     <>
       <div className={style.card}>

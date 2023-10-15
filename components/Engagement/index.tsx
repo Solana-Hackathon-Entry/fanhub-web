@@ -3,7 +3,7 @@ import style from "./style.module.css";
 import icon from "@/public/engage-icon.svg";
 import EngagementCard from "../EngagementCard";
 
-export default function ({}: any) {
+export default function Component({}: any) {
   const cards: any = [
     {
       title: "Connect your wallet",

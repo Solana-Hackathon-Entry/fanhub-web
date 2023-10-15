@@ -3,7 +3,8 @@ import React, { useEffect } from "react";
 import style from "./style.module.css";
 import NftCard from "@/components/NftCard";
 import { useNftStore } from "@/states";
-export default function ({}: any) {
+
+export default function Component({}: any) {
   const { data, get } = useNftStore() as any;
 
   useEffect(() => {

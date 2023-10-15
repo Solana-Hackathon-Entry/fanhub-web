@@ -3,7 +3,7 @@ import style from "./style.module.css";
 import logo from "@/public/hero-image.png";
 import Image from "next/image";
 
-export default function ({}: any) {
+export default function Component({}: any) {
   return (
     <>
       <div className={style.container}>
