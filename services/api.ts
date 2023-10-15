@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from "axios";
 
-const BASE_URL: string = "http://localhost:9000/api/v1/";
+const BASE_URL: string = "https://fan-hub-api.onrender.com/api/v1/";
 
 const AXIOS_INSTANCE: AxiosInstance = axios.create({
   baseURL: BASE_URL,
