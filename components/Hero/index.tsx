@@ -8,7 +8,7 @@ export default function Component({}: any) {
     <>
       <div className={style.container}>
         <div>
-          <h3 className="font-extrabold">The Ultimate Fan </h3>
+          <h3 className="font-extrabold">The Ultimate Fan</h3>
           <h3 className="font-extrabold">Destination.</h3>
           <p className="text-lg pr-20">
             Fanhub is a fan engagement platform providing an interactive
