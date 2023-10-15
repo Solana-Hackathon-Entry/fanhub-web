@@ -1,3 +1,5 @@
+"use client";
+
 import { Navbar, EventsCard } from "@/components";
 import style from "./style.module.css";
 

@@ -36,7 +36,7 @@ function DetailsSegment({}: any) {
         </div>
         <div className={style.cards_container}>
           {cards.map((e: any) => (
-            <div className={style.card_container}>
+            <div key={e.title} className={style.card_container}>
               <h6 className="font-bold">{e.title}</h6>
               <p>{e.description}</p>
               <p className="font-bold">Read More</p>

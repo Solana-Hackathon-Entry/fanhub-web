@@ -1,6 +1,6 @@
+"use client";
 import React, { useEffect } from "react";
 import style from "./style.module.css";
-import logo from "@/public/placeholder.svg";
 import NftCard from "@/components/NftCard";
 import { useNftStore } from "@/states";
 export default function ({}: any) {
@@ -8,7 +8,7 @@ export default function ({}: any) {
 
   useEffect(() => {
     get();
-  }, []);
+  });
 
   return (
     <>
