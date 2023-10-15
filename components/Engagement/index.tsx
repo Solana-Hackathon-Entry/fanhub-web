@@ -23,7 +23,9 @@ export default function ({}: any) {
   return (
     <>
       <div className={style.container}>
-        <p>Start engaging with your idols</p>
+        <h3>
+          Start engaging <span className="font-extrabold">with your idols</span>
+        </h3>
         <div className={style.cards_container}>
           {cards.map((e: any) => (
             <>

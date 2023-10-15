@@ -1,5 +1,5 @@
 .card {
-  @apply bg-transparent  border-secondary-500 border rounded-md flex flex-col items-center gap-7 p-20;
+  @apply bg-transparent  border-secondary-500 border rounded-md flex flex-col items-center gap-7 p-10;
 }
 
 .icon {

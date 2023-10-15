@@ -14,8 +14,10 @@ export default function ({ icon, title, description }: any) {
             objectFit="cover"
           />
         </div>
-        <p>{title}</p>
-        <p>{description}</p>
+        <p className="text-lg font-semibold text-white-300">{title}</p>
+        <p className="text-lg font-normal text-secondary-50 px-12">
+          {description}
+        </p>
       </div>
     </>
   );
